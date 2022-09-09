@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<?php 
+echo "ugurcan" ;
+?>
+
+<?php
+//değişkenler= $ile başlar
+// değer atarken= işareti kullanılır
+//metinsel ifadeler "" veya ''kullanılabilir
+//integer aktarılırken direkt olarak kullanabilirsiniz
+//büyük kücük harf duyarlıdır. değişkenler rakam ile başlayamaz özel karakterler kullanılmaz
+// değişkenlerde boşluk bırakılmaz. alt çizgi kullanabiliriz.
+// türkçe karakter kullanılmaz
+echo "<br> ";
+/*echo $ad0="ugur";
+$soyad="çelik";
+$no=191758;
+
+// birleştirme operatoru yani .  kullanımı
+
+$ad="ugurcan";
+$unvan=" issiz";
+echo "<br>";
+
+echo $ad. $unvan;*/
+
+
+?>
+<?php
+
+$ad="uğurcan";
+$soyad="çelik";
+$dogumyili=1999;
+$egitimdurumu="lisans";
+echo "<h1>Bilgilerim<h1>";
+echo "<hr>";
+echo "Adınız ve Soyadınız.....:".$ad." ". $soyad;
+echo "<br>";
+echo "numaranız...............:".$dogumyili;
+echo "<br>";echo "<br>";echo "<br>";echo "<br>";
+echo "<hr>";
+echo "<br>";
+
+
+
+
+?>
+
+<?php
+//matematikselislemler (işlem önceliğine dikkat et önce bölme çarpma sonra toplama çıkarma)
+$numara1=10;
+$numara2=12;
+$numara3=11;
+echo ($numara3+$numara1)*$numara2;
+/*echo $topla=$numara1+$numara2;
+if($topla<50){
+	echo"elliden küçük"
+}*/
+echo "<hr>";
+echo "çıkarma işlemi";
+$cikar=$numara2-$numara1;
+echo"$numara2-$numara1=$cikar";
+
+?>
+<?php
+echo "<hr>";
+$numara=500;
+echo "\$numara değişkenin değeri : ". $numara;
+
+
+echo "<hr>";
+$numara+=500;
+echo "\$numara değişkenin değeri : ". $numara;
+
+echo "<hr>";
+$numara/=125;
+echo "\$numara değişkenin değeri : ". $numara;
+echo "<hr>";
+$numara++;
+echo "\$numara değişkenin değeri : ".$numara; 
+echo "<hr>";
+$numara--;
+echo "\$numara değişkenin değeri : ".$numara; 
+echo "<hr>";
+echo "<br>";
+
+//hazıt fonksiyonlar
+// rand belirlenen aralıkta sayı üretir
+echo  $sayim=rand(0,25);echo "<br>";
+
+if($sayim<10){
+	echo "kazandın";
+}else {echo "kaybettin";}
+//strtolower= büyük harfleri kücüğe cevirir
+//stroupper
+echo "<hr>";
+echo $yazim= "BEN";
+echo "<br>";
+echo $yazim=strtolower($yazim);
+?>
+
+</body>
+</html>
