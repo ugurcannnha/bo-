@@ -1,0 +1,3 @@
+# bo-
+boş
+başlangic girisi
