@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<?php 
+//dizi
+$dizi=array("ugur","can",10,20,30);
+//echo $dizi;
+print_r($dizi);
+echo "<br>";
+echo $dizi[0]; echo" <br>";
+echo $dizi[1]; echo" <br>";
+echo $dizi[2]; echo" <br>";
+echo $dizi[3]; echo" <br>";
+echo $dizi[4]; echo" <br>";
+echo $dizi[5]; echo" <br>";
+
+echo" <br>";
+echo "<pre>";
+print_r($dizi);
+echo"</pre>";
+
+
+?>
+</body>
+</html>
